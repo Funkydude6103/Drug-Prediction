@@ -1,0 +1,20 @@
+#Sex
+("M",1)
+("F",2)
+
+#BP
+df["BP"] = df["BP"].replace("LOW",1)
+df["BP"] = df["BP"].replace("NORMAL",2)
+df["BP"] = df["BP"].replace("HIGH",3)
+
+#Cholesterol
+("LOW",1)
+("NORMAL",2)
+("HIGH",3)
+
+#DRUG
+("drugY",1)
+("drugC",2)
+("drugX",3)
+("drugA",4)
+("drugB",5)
