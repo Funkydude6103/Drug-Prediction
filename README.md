@@ -1,4 +1,4 @@
-#How to use the Model
+# How to use the Model
 1) First load the model using
 loaded_model = load_model("Drug_Model.keras")
 2) Replace age, sex, bp, cholesterol, na_to_k with your actual input values (Using the Classes Given in ClassMapping)
